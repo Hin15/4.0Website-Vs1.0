@@ -1,13 +1,11 @@
 import Navbar from './components/Navbar';
+import React from "react";
 
-
-function App() {
+export default function App() {
   return (
     <div>
       <Navbar />
-      <main>
-        {/* เนื้อหาอื่น */}
-      </main>
+
     </div>
   );
 }
